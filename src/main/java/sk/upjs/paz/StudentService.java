@@ -3,6 +3,11 @@ package sk.upjs.paz;
 import java.util.Set;
 
 public class StudentService {
+
+    public StudentService(Set<Student> students) {
+        this.students = students;
+    }
+
     private Set<Student> students;
 
     public PomerGenderov pomer(){

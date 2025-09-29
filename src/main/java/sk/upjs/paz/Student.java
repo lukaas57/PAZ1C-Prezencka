@@ -7,10 +7,10 @@ import java.util.Date;
 
 @With
 public record Student(
-    String meno,
+        Long id,
+        String meno,
     String priezvisko,
     Gender sex,
-    Long id,
     LocalDate datumNarodenia){
     
     public enum Gender{
